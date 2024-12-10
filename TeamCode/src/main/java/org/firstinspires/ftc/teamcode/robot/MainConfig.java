@@ -21,9 +21,9 @@ public class MainConfig extends RobotConfig {
     public void init() {
         subsystems.clear();
         drivetrain = new Drivetrain();
-       // intake = new Intake();
-     //   lift = new Lift(hardwareMap);
-       // arm = new Arm();
+        // intake = new Intake();
+        //   lift = new Lift(hardwareMap);
+        // arm = new Arm();
         //horizontalExtendo = new HorizontalExtendo();
         lift2 = new Lift2();
     }
